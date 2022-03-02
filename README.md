@@ -1,4 +1,4 @@
-## Setup
+## Get Started
 
 <details>
   <summary>Expand</summary>
@@ -8,12 +8,16 @@
   3. `yarn start`
 </details>
 
+## Prettier
+
+1. Prettier configs already exist, will want to install something like this VSCode extension: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
 ## Explanation Packages
 
 I just wanted to explain why installed some of these extra packages on top of repo for this template
 
 <details>
-  <summary>Expand</summary>
+  <summary>Expand list</summary>
 
   <details>
     <summary>lodash</summary>
@@ -24,7 +28,7 @@ I just wanted to explain why installed some of these extra packages on top of re
   <details>
     <summary>eslint</summary>
     
-    Prerequisite dependency for eslint-config-airbnb
+    Prerequisite dependency for eslint-config-airbnb but mainly because I wanted linting
   </details>
 
   <details>
@@ -55,5 +59,29 @@ I just wanted to explain why installed some of these extra packages on top of re
     <summary>eslint-plugin-jsx-a11y</summary>
     
     Prerequisite dependency for eslint-config-airbnb
+  </details>
+
+  <details>
+    <summary>eslint-plugin-react-native</summary>
+    
+    Specific linting rules for react native
+  </details>
+
+  <details>
+    <summary>eslint-plugin-jest</summary>
+    
+    Specific linting rules for jest
+  </details>
+
+  <details>
+    <summary>@typescript-eslint/parser</summary>
+    
+    Facilitates use of eslint with typescript
+  </details>
+
+  <details>
+    <summary>@typescript-eslint/eslint-plugin</summary>
+    
+    Adds or extends rules with typescript specific features
   </details>
 </details>
