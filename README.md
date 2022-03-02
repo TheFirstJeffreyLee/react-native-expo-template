@@ -74,6 +74,24 @@ I just wanted to explain why installed some of these extra packages on top of re
   </details>
 
   <details>
+    <summary>prettier</summary>
+    
+    To automatically pretty up the code base
+  </details>
+
+  <details>
+    <summary>eslint-plugin-prettier</summary>
+    
+    Runs prettier as eslint
+  </details>
+
+  <details>
+    <summary>eslint-config-prettier</summary>
+    
+    Dependency for eslint-plugin-prettier
+  </details>
+
+  <details>
     <summary>@typescript-eslint/parser</summary>
     
     Facilitates use of eslint with typescript

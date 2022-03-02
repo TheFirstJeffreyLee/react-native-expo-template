@@ -5,7 +5,7 @@ module.exports = {
     'jest/globals': true,
     'react-native/react-native': true,
   },
-  extends: ['plugin:react/recommended', 'airbnb'],
+  extends: ['plugin:jest/recommended', 'plugin:prettier/recommended', 'airbnb'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
