@@ -10,9 +10,14 @@
   4. A prompt should show up to let you know how to start web, ios or android. However if this is your first time using expo you may need to open up the iOS simulator or android emulator first. i.e. `open -a Simulator && yarn start`
 </details>
 
-## First Time Setup
+## New Project Setup
 
-1. update the `scheme` value in `app.json` to have the actual name of the app. It is basically the URL scheme to link into your app. For example, if we set this to `demo`, then `demo://` URLs would open your app when tapped.
+### app.json
+
+1. Update the `scheme` value to have the actual name of the app. It is basically the URL scheme to link into your app. For example, if we set this to `demo`, then `demo://` URLs would open your app when tapped.
+2. Update the `icon` to get the proper icon for the app aka what the user sees on their home screen
+3. Update the `splash.image` to get the proper splash screen you want on startup
+4. Update the `android.adaptiveIcon.foregroundImage` to specify your foreground image
 
 ## Prettier
 
