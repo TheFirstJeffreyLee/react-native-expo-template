@@ -7,7 +7,12 @@
   2. Make sure you run `npm install -g expo-cli` to get the latest version
   2. `yarn`
   3. `yarn start`
+  4. A prompt should show up to let you know how to start web, ios or android. However if this is your first time using expo you may need to open up the iOS simulator or android emulator first. i.e. `open -a Simulator && yarn start`
 </details>
+
+## First Time Setup
+
+1. update the `scheme` value in `app.json` to have the actual name of the app. It is basically the URL scheme to link into your app. For example, if we set this to `demo`, then `demo://` URLs would open your app when tapped.
 
 ## Prettier
 
