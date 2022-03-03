@@ -95,7 +95,8 @@ module.exports = {
   settings: {
     'import/resolver': {
       'babel-module': {
-        extensions: ['.js', '.ts', '.tsx', '.png', '.ios.js', '.android.js'],
+        root: ['./app'],
+        extensions: ['.js', '.ts', '.jsx', '.tsx', '.png', '.ios.js', '.android.js'],
         alias: {
           app: './app',
           assets: './app/assets',
