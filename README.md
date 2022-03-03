@@ -3,7 +3,8 @@
 <details>
   <summary>Expand</summary>
   
-  1. Make sure you run `npm install -g expo-cli` to get the latest version
+  1. Make sure you meet these requirements https://docs.expo.dev/get-started/installation/
+  2. Make sure you run `npm install -g expo-cli` to get the latest version
   2. `yarn`
   3. `yarn start`
 </details>
