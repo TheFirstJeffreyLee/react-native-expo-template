@@ -12,12 +12,15 @@
 
 ## New Project Setup
 
-### app.json
+<details>
+  <summary>app.json</summary>
 
 1. Update the `scheme` value to have the actual name of the app. It is basically the URL scheme to link into your app. For example, if we set this to `demo`, then `demo://` URLs would open your app when tapped.
 2. Update the `icon` to get the proper icon for the app aka what the user sees on their home screen
 3. Update the `splash.image` to get the proper splash screen you want on startup
 4. Update the `android.adaptiveIcon.foregroundImage` to specify your foreground image
+
+</details>
 
 ## Prettier
 
