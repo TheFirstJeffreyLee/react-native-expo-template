@@ -98,6 +98,12 @@ I just wanted to explain why installed some of these extra packages on top of re
   </details>
 
   <details>
+    <summary>eslint-import-resolver-babel-module</summary>
+    
+    For absolute pathing. A `babel-plugin-module-resolver` for `eslint-plugin-import`
+  </details>
+
+  <details>
     <summary>@typescript-eslint/parser</summary>
     
     Facilitates use of eslint with typescript
