@@ -92,4 +92,20 @@ module.exports = {
     'max-classes-per-file': 2,
     'no-shadow': 0,
   },
+  settings: {
+    'import/resolver': {
+      'babel-module': {
+        extensions: ['.js', '.ts', '.tsx', '.png', '.ios.js', '.android.js'],
+        alias: {
+          app: './app',
+          assets: './app/assets',
+          components: './app/components',
+          constants: './app/constants',
+          hooks: './app/hooks',
+          navigation: './app/navigation',
+          screens: './app/screens',
+        },
+      },
+    },
+  },
 };
