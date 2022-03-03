@@ -4,3 +4,33 @@
     "strict": true
   }
 }
+
+// {
+//   "extends": "expo/tsconfig.base",
+//   "compilerOptions": {
+//     "target": "es6",
+//     "module": "commonjs",
+//     "lib": ["es2017"],
+//     "allowJs": true,
+//     "jsx": "react-jsx",
+//     "noEmit": true,
+//     "strictNullChecks": true,
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "baseUrl": "./",
+//     "paths": {
+//       "app/*": ["app/*"],
+//     },
+//     "types": ["jest"],
+//     "allowSyntheticDefaultImports": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "include": [
+//       "./app/**/*.tsx",
+//       "./app/**/*.ts",
+//     ],
+//     "exclude": ["node_modules"]
+//   }
+// }
